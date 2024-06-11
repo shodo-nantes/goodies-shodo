@@ -21,4 +21,4 @@ L'utilisateur peut signaler qu'il est intéressé par un goodies dans le cas où
 L'utilisateur peut signaler qu'il est intéressé par un goodies dans le cas où l'utilisateur est non authentifié :
 - Qui : Je suis un utilisateur non authentifié sur la page de détail d'un goodies
 - Quoi : Je veux signaler que je suis intéressé par un goodies
-- Comment : Je ne peut pas signaler que je suis intéressé par un goodies, je m'authentifie et je suis redirigé sur la même page le detail d'un goodies comme le cas précédent
+- Comment : Je ne peut pas signaler que je suis intéressé par un goodies, je m'authentifie et je suis redirigé sur la même page de détail du goodies comme le cas précédent

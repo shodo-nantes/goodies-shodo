@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "bluu";
+    src: url('bluu-next/BluuNext-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: "bluu";
+    src: url('bluu-next/BluuNext-Bolditalic.otf');
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+@font-face {
+    font-family: "bluu";
+    src: url('bluu-next/BluuNext-Titling.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+    font-family: "bluu", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    height: 3rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: black;
+}
+
+h2 {
+    height: 1.5rem;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: black;
+}
+
+.header {
+    background-color: #D9D9D9;
+    height: 100px;
+    display: flex;
+
+    &--title {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--contact {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+.catalogue {
+    padding-left: 1rem;
+    font-family: "bluu", sans-serif;
+}
+
+.liste-goodies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.liste-goodies--goody {
+    /* Rectangle 7 */
+    margin: 1rem;
+    box-sizing: border-box;
+    max-width: 450px;
+    min-width: 300px;
+    background: #FFFFFF;
+    border: 0.5px solid #A7A7A7;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.goody--image {
+    flex: 1;
+}
+
+.goody--text {
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    margin-left: 0.5rem;
+}

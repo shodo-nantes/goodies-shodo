@@ -1,6 +1,6 @@
 <template>
     <div :key="goody.id" class="goody" :title="goody.title" @click="redirectToGoodies">
-        <img class="goody--image" :src="goody.image" :alt="goody.alt">
+        <img class="goody--image" :src="image" :alt="goody.alt">
         <span class="goody--text">{{ goody.name }}</span>
     </div>
 </template>
@@ -23,8 +23,11 @@ export default defineComponent({
             router.push({ name: 'goodies-detail', params: { id: props.goody.id }});
         }
 
+        const image = `/src/assets/${props.goody.image}`;
+
         return {    
-            redirectToGoodies
+            redirectToGoodies,
+            image
         }
     }
 });

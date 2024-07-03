@@ -1,14 +1,24 @@
 <template>
-    <div>
-        <h2 class="title" @click="redirectToCatalogue">
+    <div class="goodies-details">
+        <h2 class="h2-description" @click="redirectToCatalogue">
             {{ redirectLabel }}
         </h2>
-        <div>
-            <h1>{{ title }}</h1>
-            <p>{{ goody.name }}</p>
-            <p>{{ goody.title }}</p>
-            <p>{{ goody.detail }}</p>
+        <div class="case-description">
             <img class="goody--image" :src="image" :alt="goody.alt" />
+            <div class="group-text-description">
+                <div>
+                    <h2 class="h2-titre-description">{{ goody.name }}</h2>
+                </div>
+                <div>
+                    <p class="p-text-description">{{ goody.detail }}</p>
+                </div>
+                <div>
+                    <center>
+                        <p class="p-text-sign-in">Pour dire que vous êtes intéressé par ce goodies, veuillez vous connecter</p>
+                        <a style="text-decoration:none" href="Description-sign-in.html" ><div class="sign-in"><p>Sign in</p></div></a>
+                    </center>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -45,10 +55,3 @@ export default defineComponent({
 });
 
 </script>
-<style lang="scss" scoped>
-.title {
-    display: flex;
-    flex: 1;
-    cursor: pointer;  
-}
-</style>

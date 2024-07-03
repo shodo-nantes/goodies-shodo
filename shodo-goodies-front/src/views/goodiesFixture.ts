@@ -7,8 +7,7 @@ export const goodies: Goodies[] = [
         image: 'sweat.png',
         title: "detail d'un sweat",
         alt: "sweat bretagne",
-        detail: "lorem ipsum"
-        
+        detail: "Logoden biniou degemer mat an penn ar bed vezañ pegañ anavezout, gaer lamm rev pell oa Rosporden kargañ ar genou c’hoar, Sun kenwerzh unan eeun soubenn kerc’hat biskoazh gwech tri." 
     },
     {
         id: 2,
@@ -16,7 +15,7 @@ export const goodies: Goodies[] = [
         image: 'sweat.png',
         title: "detail d'un sweat",
         alt: "sweat shodo",
-        detail: ""
+        detail: "Logoden biniou degemer mat an penn ar bed vezañ pegañ anavezout, gaer lamm rev pell oa Rosporden kargañ ar genou c’hoar, Sun kenwerzh unan eeun soubenn kerc’hat biskoazh gwech tri."
     },
     {
         id: 3,
@@ -24,7 +23,7 @@ export const goodies: Goodies[] = [
         image: 'sweat.png',
         title: "detail d'un sweat",
         alt: "sweat shodo",
-        detail: ""
+        detail: "Logoden biniou degemer mat an penn ar bed vezañ pegañ anavezout, gaer lamm rev pell oa Rosporden kargañ ar genou c’hoar, Sun kenwerzh unan eeun soubenn kerc’hat biskoazh gwech tri."
     },
     {
         id: 4,
@@ -32,7 +31,7 @@ export const goodies: Goodies[] = [
         image: 'sweat.png',
         title: "detail d'un sweat",
         alt: "sweat shodo",
-        detail: ""
+        detail: "Logoden biniou degemer mat an penn ar bed vezañ pegañ anavezout, gaer lamm rev pell oa Rosporden kargañ ar genou c’hoar, Sun kenwerzh unan eeun soubenn kerc’hat biskoazh gwech tri."
     },
     {
         id: 5,
@@ -40,7 +39,7 @@ export const goodies: Goodies[] = [
         image: 'sweat.png',
         title: "detail d'un sweat",
         alt: "sweat shodo",
-        detail: ""
+        detail: "Logoden biniou degemer mat an penn ar bed vezañ pegañ anavezout, gaer lamm rev pell oa Rosporden kargañ ar genou c’hoar, Sun kenwerzh unan eeun soubenn kerc’hat biskoazh gwech tri."
     },
     {
         id: 6,
@@ -48,7 +47,7 @@ export const goodies: Goodies[] = [
         image: 'sweat.png',
         title: "detail d'un sweat",
         alt: "sweat shodo",
-        detail: ""
+        detail: "Logoden biniou degemer mat an penn ar bed vezañ pegañ anavezout, gaer lamm rev pell oa Rosporden kargañ ar genou c’hoar, Sun kenwerzh unan eeun soubenn kerc’hat biskoazh gwech tri."
     },
     {
         id: 7,
@@ -56,7 +55,7 @@ export const goodies: Goodies[] = [
         image: 'sweat.png',
         title: "detail d'un sweat",
         alt: "sweat shodo",
-        detail: ""
+        detail: "Logoden biniou degemer mat an penn ar bed vezañ pegañ anavezout, gaer lamm rev pell oa Rosporden kargañ ar genou c’hoar, Sun kenwerzh unan eeun soubenn kerc’hat biskoazh gwech tri."
     },
     {
         id: 8,
@@ -64,6 +63,6 @@ export const goodies: Goodies[] = [
         image: 'sweat.png',
         title: "detail d'un sweat",
         alt: "sweat shodo",
-        detail: ""
+        detail: "Logoden biniou degemer mat an penn ar bed vezañ pegañ anavezout, gaer lamm rev pell oa Rosporden kargañ ar genou c’hoar, Sun kenwerzh unan eeun soubenn kerc’hat biskoazh gwech tri."
     },
 ]

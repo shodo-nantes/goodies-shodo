@@ -1,6 +1,6 @@
 @font-face {
     font-family: "bluu";
-    src: url('bluu-next/BluuNext-Bold.otf');
+    src: url('./bluu-next/BluuNext-Bold.otf');
     font-weight: bold;
     font-style: normal;
     
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "bluu";
-    src: url('bluu-next/BluuNext-Bolditalic.otf');
+    src: url('./bluu-next/BluuNext-Bolditalic.otf');
     font-weight: bold;
     font-style: italic;
     
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: "bluu";
-    src: url('bluu-next/BluuNext-Titling.otf');
+    src: url('./bluu-next/BluuNext-Titling.otf');
     font-weight: normal;
     font-style: normal;
 }

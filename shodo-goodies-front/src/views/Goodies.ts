@@ -4,4 +4,5 @@ export interface Goodies {
     image: string;
     title: string;
     alt: string;
+    detail: string;
 }

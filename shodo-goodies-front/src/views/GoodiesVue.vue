@@ -20,7 +20,7 @@ export default defineComponent({
     },
     setup(props) {
         const redirectToGoodies = () => {
-            router.push({ name: 'goodies-detail', params: { id: props.goody.id }});
+            router.push({ name: 'goodies-details', params: { id: props.goody.id }});
         }
 
         const image = `/src/assets/${props.goody.image}`;

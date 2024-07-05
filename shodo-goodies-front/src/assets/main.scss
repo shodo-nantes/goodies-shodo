@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "bluu";
+    src: url('./bluu-next/BluuNext-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: "bluu";
+    src: url('./bluu-next/BluuNext-Bolditalic.otf');
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+@font-face {
+    font-family: "bluu";
+    src: url('./bluu-next/BluuNext-Titling.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+    font-family: "bluu", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    height: 3rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: black;
+}
+
+h2 {
+    height: 1.5rem;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: black;
+}
+
+.header {
+    background-color: #D9D9D9;
+    height: 100px;
+    display: flex;
+
+    &--title {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--contact {
+        height: 100px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+.catalogue {
+    padding-left: 1rem;
+    font-family: "bluu", sans-serif;
+}
+
+.liste-goodies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.goodies-details {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem 0 1rem;
+
+    &--redirection {
+        cursor: pointer;
+    }
+}
+.goodies-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+    &--image, 
+    &--description {
+        flex: 1;
+        min-width: 400px;
+    }
+
+    &--image {
+        max-width: 600px;
+    }
+
+    &--description {
+        padding: 0 1rem 0 1rem;
+        display: flex;
+        flex-direction: column;
+
+        &--detail {
+            flex-grow: 1;
+        }
+    }
+}
